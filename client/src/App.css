@@ -1,0 +1,90 @@
+.main {
+  min-height: 0;
+}
+
+#sidebar .list-group-item {
+  background-color: transparent;
+}
+
+#sidebar .list-group-item.active {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+#sidebar .list-group-item:not(.active):hover {
+  background-color: #9becae;
+  border-color: #9becae;
+}
+
+.btn-add {
+  font-size: 24px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.scroll-y {
+  overflow-y: auto;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.icon-button {
+  background: none;
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+.icon-button:hover,
+.icon-button:focus {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.icon-button:active {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.checkbox {
+  padding:  .375rem .75rem;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+.loader {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.mdc-linear-progress__buffer {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.mdc-linear-progress__bar-inner {
+  background-color: #1d7832 !important;
+}
+
+.welcome-toast {
+  position: absolute;
+  z-index: 1;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.login-form {
+  max-width: 350px;
+  padding: 40px;
+}
+
+.svg-icon {
+  padding: 2px 4px;
+}
